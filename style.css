@@ -1,0 +1,71 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+html {
+    font:12px/1.5 "Helvetica",sans-serif;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+body{margin:0; padding:0;}
+header .info {
+    background:rgb(99, 99, 99);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFF;
+    padding:0 1rem;
+    height:5vh;
+}
+
+header .appear {
+    background: rgb(255,255,255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid;
+}
+
+header .appear {
+    padding:0 3rem;
+}
+header .appear .site-title {
+    font-size:3rem;
+}
+header .appear .site-branding i {
+    font-size:3rem;
+    margin-right:1rem;
+}
+header .appear .social-links {
+    display:flex;
+}
+
+header .appear .social-links a{
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+header .appear .social {
+    background: rgb(29, 114, 189);
+    padding:1rem 1.5rem;
+    border-radius:0.3rem;
+}
+
+header .social a {
+    font-size:1.2rem;
+}
+header .appear .social:not(:last-child){
+    margin-right:1rem;
+}
+header .info .fas{
+    margin-right:0.5rem;
+}
+
+
+header .info p ,
+header .appear p{
+    display:inline-block;
+}
